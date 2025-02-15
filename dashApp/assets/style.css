@@ -1,0 +1,24 @@
+body {
+    background-color: #111111;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dash-graph {
+    background-color: #111111;
+}
+
+.plotly .xaxis .tick text,
+.plotly .yaxis .tick text {
+    color: #FFFFFF;
+}
+
+.plotly .xaxis .gridline,
+.plotly .yaxis .gridline {
+    stroke: #333333;
+}

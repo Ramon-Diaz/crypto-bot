@@ -1,0 +1,75 @@
+data
+crypto-bot_venv
+mysql-init/init.sql
+git_best_practices.txt
+src/main.py
+src/remove_files.py
+src/remove_tables.py
+src/test.py
+notes.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database
+*.log
+*.sqlite3
+*.db
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+docker-sync.yml
+.docker/
+docker_data/
+*.pid
+
+# Environment and configuration files
+.env
+*.pem
+*.key
+
+# VSCode and other IDE settings
+.vscode/
+*.code-workspace
+
+# Cache and temporary files
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Mypy
+.mypy_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Anaconda
+*.conda
+*.ipynb_checkpoints
